@@ -139,6 +139,6 @@ h3{
 
 
 
-#tr-popup[data-hidden="true"] {
+#tr-popup{
     display: none;
 }
