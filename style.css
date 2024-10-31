@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li{
+    list-style-type: none;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+  
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+
+nav a{
+    color: black;
+}
+
+
+/* nav li:r{
+    padding: 50px;
+} */
+
+/* .img img{
+    width: 800px;
+    height: ;
+} */
+
+
+
+.img img{
+width: 100%;
+margin-top: 100px;
+}
+
+body{
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+
+
+nav li img{
+    width: 100px;
+    padding-right: 6px;
+    
+}
+
+
+
+
+.products img{
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.products{
+    display: flex;
+    width: 100%;
+   
+
+}
+
+.product{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+    height: 400px;
+   
+}
+
+
+.product button{
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+}
+
+.product:hover .button{
+  display: block;
+  border: 0;
+  font-size: medium;
+}
+
+
+footer{
+    background-color: darkslategray;
+    height: 250px;
+    display: flex;
+    position: relative;
+}
+
+
+table{
+    height: 150px;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+}
+
+
+h3{
+ position: absolute;   
+ top: 83%;
+
+}
+
+
+
+
+#tr-popup[data-hidden="true"] {
+    display: none;
+}
